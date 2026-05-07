@@ -1,0 +1,16 @@
+<settings>
+  <proxies>
+    <proxy>
+      <id>my-proxy</id>
+      <active>true</active> <!-- Crucial: Set to true to enable -->
+      <protocol>http</protocol>
+      <host>http://100.65.247.140:3128</host>
+      <port>8080</port>
+      <!-- Optional: Username and password if authentication is required -->
+      <!-- <username>user</username> -->
+      <!-- <password>password</password> -->
+      <!-- Optional: Hosts to bypass the proxy -->
+      <nonProxyHosts>localhost|*.mycompany.com</nonProxyHosts>
+    </proxy>
+  </proxies>
+</settings>
