@@ -1,7 +1,7 @@
-FROM eclipse-temurin:11-jre
+FROM registry.buildpiper.in/ot-light:11-jre
 
 LABEL maintainer="Ravi Sharma"
-LABEL BASE_IMAGE="eclipse-temurin:11-jre"
+LABEL BASE_IMAGE="registry.buildpiper.in/ot-light:11-jre"
 LABEL JAVA_VERSION="11"
 
 WORKDIR /work/
