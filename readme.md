@@ -5,7 +5,10 @@ a very simple rest-api-hello-world java application with Spring Boot and Maven, 
 ## How to Build
 ```
 docker build -t hello-world-java-docker .
-```  
+```
+
+
+
 
 ## How to Run
 ```
